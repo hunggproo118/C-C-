@@ -5,5 +5,8 @@ int main(){
 	int n;
 	scanf("%c", &x);
 	scanf("%d", &n);
-	printf("%c", x+n);
+	if (x=z){
+		printf("%c", x=a);
+	}else{
+		printf("%c" , x+n);
 }
