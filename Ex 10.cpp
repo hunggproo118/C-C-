@@ -1,20 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
-int main (){
-	unsigned int a,b,c;
-	scanf("%d%d%d", &a,&b,&c);
-	if (a>=b+c){
-		printf("error");
+int main(){
+	char x;
+	scanf("%c", &x );
+	if (x=='Z'){
+		printf("%c", x+7);
 	}else{
-		if(b>=c+a){
-			printf("error");
-		}else{
-			if(c>=a+b){
-				printf("error");
-			}else{
-				printf("thoa man");
-			}
-		}
+		printf("%c", x+33);
 	}
-	 
 }
