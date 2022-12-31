@@ -1,20 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 int main (){
-	unsigned int a,b,c;
+	unsigned int a,b,c,S,p;
+	p = (a+b+c)/2;
 	scanf("%d%d%d", &a,&b,&c);
-	if (a>=b+c){
-		printf("error");
-	}else{
-		if(b>=c+a){
-			printf("error");
-		}else{
-			if(c>=a+b){
-				printf("error");
-			}else{
-				printf("thoa man");
-			}
-		}
-	}
-	 
-}
+	printf("dien tich tam giac la : %u ", S=sqrt(p(p-a)(p-b)(p-c)));
+}	
