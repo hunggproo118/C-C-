@@ -1,13 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 int main(){
-	int n;
-	scanf("%d", n);
-	
-		if (n>((n-1)/2)){
-			printf("thoa man");
-		}else{
-			printf("ko thoa man");
-		}
-
+	unsigned int k,n;
+	scanf("%d", &n);
+	if (n<=2*k<=2*n){
+		printf("%d", k=round((n+1)/2));
+	}else{
+		printf("ko thoa man de bai");
+	}
 }
+	
+	
+	
+	
