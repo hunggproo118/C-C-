@@ -5,11 +5,11 @@ int main(){
 	printf("Hay nhap so nam : ");
 	scanf("%d", &nam);
 	if ((nam % 4 ==0)&&(nam % 100 !=0)){
-		printf("nam ban vua nhap la nam nhuan");
+		printf("1");
 	}else if (nam % 400 ==0){
-		printf("nam ban vua nhap la nam nhuan");
+		printf("1");
 	}else{
-		printf("nam ban vua nhap ko phai nam nhuan");
+		printf("0");
 	}
 	
 }
